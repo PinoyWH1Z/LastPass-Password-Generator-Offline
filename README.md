@@ -1,5 +1,5 @@
 # LastPass Password Generator
- Source code of LastPass Password Generator Tool
+ Rip-off of LastPass Password Generator Tool
 
 ![Tool Preview](Preview.png)
 
