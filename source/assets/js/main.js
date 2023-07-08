@@ -11375,7 +11375,7 @@
       for (var n = 0, r = new Array(e); n < e; n++) r[n] = t[n];
       return r
     }
-    window.resourceBaseUrl = window.location.toString().includes('localhost') ? './' : '/assets/',
+    window.resourceBaseUrl = window.location.toString().includes('localhost') ? './' : 'assets/',
     (0, i.lmiMa) (),
     (0, c.webVitals) ();
     var f = [
