@@ -1,5 +1,5 @@
-# LastPass Password Generator
- Rip-off of LastPass Password Generator Tool
+# LastPass Password Generator (Offline)
+ Offline Version of LastPass Password Generator Tool
 
 ![Tool Preview](Preview.png)
 
@@ -19,30 +19,24 @@ The LastPass Password Generator is a convenient tool that allows you to generate
 
 ## Installation
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine. (or download zip file)
 
 ```
 git clone https://github.com/PinoyWH1Z/LastPass-Password-Generator.git
 ```
 
-2. Host the web files
+2. Run the webpage
 
-> Python3
 ```
-cd LastPass-Password-Generator/source && python -m http.server 80
-```
-
-> Apache2
-```
-sudo cp -R LastPass-Password-Generator/source /var/www/html/ && sudo service apache2 start
+Just open or run 'passgen.html' in your favorite web browser
 ```
 
 
 ## Usage
 
-1. Visit the `http://127.0.0.1/passgen.html` url in your preferred web browser.
+1. Open the `passgen.html` URL in your preferred web browser.
 2. Customize the password generation options according to your requirements.
-3. Click the generate button to generate a strong and secure password.
+3. Click the "Generate" button to generate a strong and secure password.
 4. Use the generated password for your online accounts, and make sure to store it securely.
 
 ## Contributing
